@@ -39,7 +39,7 @@ python email_filter.py
 
 1. Reads `emails.csv` using csv.DictReader
 2. Checks each email for leave-related keywords
-3. Filters emails containing: "leave", "nghỉ", "off", "vacation", "absence", "day off"
+3. Filters emails containing: "leave"
 4. Outputs filtered results to `leave_request.json`
 
 
