@@ -2,18 +2,18 @@
 
 Mini workflow program to automatically filter leave request emails from a CSV file.
 
-## 📋 Overview
+## Overview
 
 This program reads emails from `emails.csv`, identifies leave request emails based on keywords, and outputs filtered results to `leave_request.json`.
 
-## 🚀 Features
+## Features
 
 - Reads email data from CSV format
 - Intelligent keyword detection for leave requests
 - Outputs structured JSON format
 - Available in both Python and Node.js
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -119,7 +119,7 @@ Total : 3 leave requests
 
 1. Replace the contents of `emails.csv` with your data
 2. Make sure the CSV has these columns: `id`, `sender`, `subject`, `body`
-3. Run the program using either Python or Node.js version
+3. Run the program using Python
 
 ## 💡 Use Cases
 
